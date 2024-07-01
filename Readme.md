@@ -40,3 +40,34 @@ Domyślnie backend jest skonfigurowany do działania na porcie 8080. Wynika to z
 
 Jeśli napotkasz problemy z portem 8000, aplikacja jest wstępnie skonfigurowana do użycia portu 8080. Ta zmiana została uwzględniona zarówno w kodzie backendu, jak i frontendu, aby zapewnić płynną komunikację.
 
+## Uruchamianie Frontendu
+
+Aby uruchomić frontendowy projekt React, wykonaj poniższe kroki:
+
+### Wymagania wstępne
+
+Upewnij się, że masz zainstalowane poniższe narzędzia:
+
+- [Node.js](https://nodejs.org/) (wraz z npm, który jest dołączony do Node.js)
+
+### Krok 1: Zainstaluj zależnośc
+
+Przejdz do folderu frontend
+
+```
+ cd .\frontend\
+```
+W katalogu "frontend" uruchom poniższe polecenie, aby zainstalować wszystkie zależności określone w pliku package.json:
+
+```
+ npm install
+```
+
+### Krok 2: Uruchom aplikację
+
+Po zainstalowaniu zależności, uruchom aplikację, wykonując poniższe polecenie:
+
+```
+ npm start
+```
+
